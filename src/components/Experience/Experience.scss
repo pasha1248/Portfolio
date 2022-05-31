@@ -1,0 +1,59 @@
+.container {
+
+}
+
+.experience__frontend{
+    text-align: center;
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+
+.experience__content article{
+    font-size: 20px;
+    padding: 2rem ;
+    border-radius: 20px;
+    background: linear-gradient(rgb(75, 0, 128), rgb(111, 61, 111));
+}
+
+
+
+@media screen and (max-width: 1024px){
+    
+    
+    .experience__content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5rem;
+
+    }
+    .experience__content > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+
+}
+  
+  //==========    MEDIA  QUERIES (MEDIUM DEVICES)
+@media screen and (max-width: 600px){
+  
+    .experience__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+
+    }
+
+    .experience__content article{
+        padding: 1rem ;
+    }
+
+}
+
