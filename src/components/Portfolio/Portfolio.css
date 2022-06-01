@@ -1,7 +1,7 @@
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 .portfolio__items {
@@ -26,10 +26,12 @@
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
+.portfolio__items > a {
+margin: 0.5rem;}
 
-//==========    MEDIA QUERIES (MEDIUM DEVICES)
+
 @media screen and (max-width: 1024px){
     .portfolio__container{
         
@@ -40,7 +42,6 @@
 
 }
   
-  //==========    MEDIA  QUERIES (MEDIUM DEVICES)
 @media screen and (max-width: 600px){
   
     .portfolio__container{

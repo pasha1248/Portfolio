@@ -10,12 +10,7 @@ header {
     position: relative;
 }
 
-//  ========  CTA
    
-// .me > img {
-//     width: 500px;
-//     text-align: center;
-// }
 
 
 .cta {
@@ -26,7 +21,6 @@ header {
 }
 
 
-// ========== HEADER SOCIALS
 
 .header__social {
    display: flex;
@@ -45,7 +39,6 @@ header {
     background: var(--color-primary);
 }
 
-// ======== ME
 
 .me {
     width: 22rem;
@@ -57,7 +50,6 @@ header {
     overflow: hidden;
 }
 
-// ========== SCROLL DOWN
 
 .scroll-down {
     position: absolute;
@@ -68,7 +60,6 @@ header {
     font-size: 0.9rem;
 }
 
-//==========    MEDIA QUERIES (MEDIUM DEVICES)
 @media screen and (max-width: 1024px){
 
   header{
@@ -76,7 +67,6 @@ header {
   }
 }
 
-//==========    MEDIA  QUERIES (MEDIUM DEVICES)
 @media screen and (max-width: 600px){
 
     header{

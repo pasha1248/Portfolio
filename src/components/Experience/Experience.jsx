@@ -1,5 +1,5 @@
 import React from 'react'
-import './Experience.scss'
+import './Experience.css'
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {DiCss3Full} from 'react-icons/di'
 import {SiJavascript} from 'react-icons/si'
