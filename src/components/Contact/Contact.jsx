@@ -36,7 +36,7 @@ const Contact = () => {
             <AiFillFacebook className='contact__option-icon'/>
             <h4>Facebook</h4>
             <h5>Pasha Ivashkiv</h5>
-            <a href="https://www.facebook.com/pasha.ivashkiv" target='_blank'>Send a message</a>
+            <a href="https://www.facebook.com/pasha.ivashkiv" target='_blank' rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <FaTelegram className='contact__option-icon'/>
@@ -45,7 +45,7 @@ const Contact = () => {
             <h5>
             <a href="tel:+380634274456">+380634274456</a>
             </h5>
-            <a href="https://t.me/pavloivashkiv" target='_blank'>Send a message</a>
+            <a href="https://t.me/pavloivashkiv" target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
       
@@ -56,7 +56,7 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary' >Send Message</button>
 
         </form>
-        {state ? <img className='good' src={good}/> : ''}
+        {state ? <img className='good' src={good} alt=''/> : ''}
 
       </div>
     </section>
