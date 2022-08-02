@@ -15,12 +15,13 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         <article className='portfolio__items'>
           <div className='portfolio__item-img'>
-            <img src={pizzaFoto} alt='photo' />
+            <img src={pizzaFoto} alt='photo4' />
           </div>
-          <h3>Project links</h3>
+          <h3>Project </h3>
           <a
             href='https://github.com/pasha1248/E-commerce'
             target='_blank'
+            rel='noreferrer'
             className='btn'
           >
             Github
@@ -29,18 +30,20 @@ const Portfolio = () => {
             href='https://spectacular-druid-0dfa88.netlify.app/'
             target='_blank'
             className='btn btn-primary'
+            rel='noreferrer'
           >
             Live Demo
           </a>
         </article>
         <article className='portfolio__items'>
           <div className='portfolio__item-img'>
-            <img src={posfolio} alt='photo' />
+            <img src={posfolio} alt='photo3' />
           </div>
-          <h3>Project links</h3>
+          <h3>Project </h3>
           <a
             href='https://github.com/pasha1248/Portfolio'
             target='_blank'
+            rel='noreferrer'
             className='btn'
           >
             Github
@@ -49,19 +52,21 @@ const Portfolio = () => {
             href='https://peaceful-bubblegum-d0b206.netlify.app/'
             target='_blank'
             className='btn btn-primary'
+            rel='noreferrer'
           >
             Live Demo
           </a>
         </article>
         <article className='portfolio__items'>
           <div className='portfolio__item-img'>
-            <img src={mui} alt='photo' />
+            <img src={mui} alt='photo2' />
           </div>
-          <h3>Project links</h3>
+          <h3>Project </h3>
           <a
             href='https://github.com/pasha1248/Meterial-UI-Study'
             target='_blank'
             className='btn'
+            rel='noreferrer'
           >
             Github
           </a>
@@ -69,18 +74,20 @@ const Portfolio = () => {
             href='https://magenta-biscochitos-73e7dc.netlify.app/'
             target='_blank'
             className='btn btn-primary'
+            rel='noreferrer'
           >
             Live Demo
           </a>
         </article>
         <article className='portfolio__items'>
           <div className='portfolio__item-img'>
-            <img src={pizza1} alt='photo' />
+            <img src={pizza1} alt='photo1' />
           </div>
-          <h3>Project links</h3>
+          <h3>Project </h3>
           <a
             href='https://github.com/pasha1248/React-E-commers'
             target='_blank'
+            rel='noreferrer'
             className='btn'
           >
             Github
@@ -89,6 +96,7 @@ const Portfolio = () => {
             href='https://symphonious-lolly-23e9e8.netlify.app/'
             target='_blank'
             className='btn btn-primary'
+            rel='noreferrer'
           >
             Live Demo
           </a>
