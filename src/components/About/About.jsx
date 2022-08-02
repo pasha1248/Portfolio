@@ -3,7 +3,6 @@
 import React from 'react'
 import './About.css'
 import { BsFillAwardFill } from 'react-icons/bs'
-import { FiUsers } from 'react-icons/fi'
 import { ImBooks } from 'react-icons/im'
 import Photo from '../../assets/image.jpeg'
 
