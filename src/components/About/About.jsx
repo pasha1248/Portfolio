@@ -24,7 +24,7 @@ const About = () => {
             <article className='about__card'>
               <BsFillAwardFill className='about__icon' />
               <h5>Experience</h5>
-              <small>7+ months</small>
+              <small>10+ months</small>
             </article>
             <article className='about__card'>
               <ImBooks className='about__icon' />
@@ -33,11 +33,18 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello everyone, my name is Paul and I am front-end developer. My
-            training started with HTML and CSS. After that I started to teach
-            Java Script on the course of Bogdan Stashchuk "Complete JavaScript
-            Course for Beginners". After the course, I wrote several training
-            projects such as ToDo List. Now I'm learning React / Redux.
+            {`Hello, my name is Pavlo and I am a Full-Stach Developer. My main
+            specialization is a Web Application development and my main
+            programming languages are JavaScript and TypeScript.
+
+              In my projects, I used such technologies as React, Angular, Node.js, Nest.js,
+            Express.js, and many others. I also have experience working with
+            databases such as Postgres SQL and MongoDB.
+              A little about the work experience. In my portfolio, I have different types of projects. In
+            general, these are e-commers, fintech, and delivery projects. I also have
+            experience working in a team, where I developed both back-end and
+            front-end. I like to create interesting projects and functional ones
+            for the`}
           </p>
 
           <a href='#contact' className='btn btn-primary'>
